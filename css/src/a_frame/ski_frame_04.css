@@ -1,0 +1,72 @@
+/*ski_frame_04.css*/
+
+/*960px layout*/
+#wrap{width: 960px; height: auto; min-height: 1500px; margin: auto;}
+#headBox{width:100%; height:528px; background-color:#87d;}
+h1{width:870px; height:126px; background-color:#aaa; float:left;}
+.logo{width:90px; height:126px; background-color:#44c; float:left;}
+.banner{width:100%; height:402px; background-color:#0064cd; position:relative;}
+.banner>ul{width:380px; height:50px; margin-left:10px; position:absolute; bottom:15px;}
+.banner>ul>li{width:50px; height:100%; float:left; background-color:#fff; margin-right:26px;}
+.banner>ul>li:nth-child(3){background-color:#333;}   
+/*-----------*/
+#navBox{width:100%; height:230px; margin-top:200px;}
+#navBox>ul{width:946px; height:100%; margin-left:10px;}
+#navBox>ul>li{width:230px; height:230px; float:left; background-color:#0064cd; margin-right:125px;}
+#navBox>ul>li:nth-child(3){margin-right:0;}
+/*------------*/
+#subBox{width:100%; height:380px; back-ground-color:#78f; margin-top:200px; margin-bottom:200px; position:relative;}
+.sub_box_wrap{width:780px; height:100%; margin-left: 90px; overflow: hidden;}
+.sub_box_wrap>ul{width:2380px; height:100%;}
+.sub_box_wrap>ul>li{width:380px; height:380px; margin-right:20px; background-color:#00f; float:left;}
+.sub_box_wrap>ul>li:last-child{margin-right: 0;}
+#subBox>.sub_btn{width:100%; height: 0; position: absolute; left: 0; top: 50%; margin-top: -30px;}
+#subBox>.sub_btn>button{width:60px; height: 60px; float:left}
+#subBox>.sub_btn>button:last-child{float:right;}
+/*-----------*/
+#contentBox{width:100%; height:370px; margin-bottom:200px;} 
+#contentBox>ul{width:100%; height:100%;}
+#contentBox>ul>li{width:320px; height:185px; float:left;}
+#contentBox>ul>li:nth-child(1){background-color:#00f;}
+#contentBox>ul>li:nth-child(2){background-color:#ccc;}
+#contentBox>ul>li:nth-child(3){background-color:#00ff00;}
+#contentBox>ul>li:nth-child(4){background-color:#ccc;}
+#contentBox>ul>li:nth-child(5){background-color:#00ff00;}
+#contentBox>ul>li:nth-child(6){background-color:#00f;}
+/*-----------------*/
+#footBox{width:100%; height:194px; background-color:rgba(51,51,51,0.9);}
+
+/*1366px layout*/
+
+/*#wrap{width: 1366px; height: auto; min-height: 1500px; margin: auto;}
+#headBox{width:100%; height:528px; background-color:#87d;}
+h1{width:870px; height:126px; background-color:#aaa; float:left;}
+.logo{width:90px; height:126px; background-color:#44c; float:left;}
+.banner{width:100%; height:402px; background-color:#0064cd; position:relative;}
+.banner>ul{width:380px; height:50px; margin-left:217px; position:absolute; bottom:15px;}
+.banner>ul>li{width:50px; height:100%; float:left; background-color:#fff; margin-right:26px;}
+.banner>ul>li:nth-child(3){background-color:#333;}   */
+/*-----------*/
+/*#navBox{width:100%; height:298px; margin-top:200px;}
+#navBox>ul{width:1337px; height:100%; margin-left:10px;}
+#navBox>ul>li{width:298px; height:298px; float:left; background-color:#0064cd; margin-right:125px;}
+#navBox>ul>li:nth-child(3){margin-right:0;}
+*/
+/*------------*/
+/*#subBox{width:100%; height:377px; back-ground-color:#78f; margin-top:200px; margin-bottom:200px;}
+#subBox>ul{width:1339px; height:377px; position:relative;}
+#subBox>ul>li{width:377px; height:377px; background-color:#887; float:left; margin-right:52px;}
+#subBox>ul>li:nth-child(3){display:block;}
+#subBox>ul>li:last-child{width:60px; height:60px; background-color:#333; float:right; margin-right:0; position:absolute; top:50%; margin-top:-30px; right:0.5%;}*/
+/*-----------*/
+/*#contentBox{width:100%; height:370px; margin-bottom:200px;} 
+#contentBox>ul{width:100%; height:100%;}
+#contentBox>ul>li{width:454px; height:185px; float:left;}
+#contentBox>ul>li:nth-child(1){background-color:#00f;}
+#contentBox>ul>li:nth-child(2){background-color:#ccc;}
+#contentBox>ul>li:nth-child(3){background-color:#00ff00;}
+#contentBox>ul>li:nth-child(4){background-color:#ccc;}
+#contentBox>ul>li:nth-child(5){background-color:#00ff00;}
+#contentBox>ul>li:nth-child(6){background-color:#00f;}*/
+/*-----------------*/
+/*#footBox{width:100%; height:194px; background-color:rgba(51,51,51,0.9);}*/

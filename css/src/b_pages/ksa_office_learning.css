@@ -1,0 +1,110 @@
+/*ksa_office.learning.css*/
+
+/*960layout*/
+/*#snow*/
+#snow{width:960px; height:auto; margin:auto;}
+
+/*head_box*/
+#head_box{width:200px; height:100%; position:fixed; z-index:1000; text-indent: 0.5rem; background-color:#fff;}
+h1{width:100%; height:200px;margin-left:-10px;}
+#nav{width:200px; height:100%; position:fixed; z-index:1000; text-indent: 0.5rem; background-color:#fff;}
+h1{width:100%; height:200px;margin-left:-10px;}
+#head_box>ul{width:100%; height:auto; margin-top:50px;}
+#head_box>ul>li{width:100%; height:auto; margin-bottom:50px; box-sizing: border-box; padding-bottom: 0.2rem;}
+#head_box>ul>li:last-child{margin-bottom: 0;}
+#head_box>ul>li.active{border-bottom: 2px solid  #007695;}
+#head_box>ul>li>a{display: block; width:100%; height:100%; color:#007695;  font-size:26px;}
+#head_box>ul>li>a:active{font-weight:bold;}
+
+/*tabMenu*/
+.guide_nar{width:760px; height:70%; min-height:800px;position:absolute; top:0; left:100%; z-index:1500; display: none;}
+.guide_nar.active{ display: block;}
+.guide_nar>div{width:760px; height:100%; box-sizing:border-box; border:3px solid #fff; display: none;}
+.guide_nar>div.active{display: block;}
+.guide_nar>div>ul{width:300px; height:400px; margin-top:190px; margin-left:50px;}
+.guide_nar>div>ul>li{width:100%; height:32px;  margin-bottom:50px; }
+.guide_nar>div>ul>li>a{font-size:28px; color:#fff; font-weight:bold;}
+.guide_nar>div>ul>li:last-child{margin-bottom:0;}
+.guide_nar>div>ul>li>a:focus{border:2px solid #fff;}
+.office{background-color:rgba(102,45,140,0.9); display:block;}
+.snow_sport{background-color:rgba(0,118,148,0.9);}
+.media_content{background-color:rgba(102,45,140,0.9);}
+.serivce{background-color:rgba(0,118,148,0.9);}
+.sport{background-color:rgba(0,118,148,0.9);}
+.player{background-color:rgba(102,45,140,0.9);}
+/*tabMenu*/
+.guide_nar{width:760px; height:70%; min-height:800px;position:absolute; top:0; left:100%; z-index:1500; display: none;}
+.guide_nar.active{ display: block;}
+.guide_nar>div{width:760px; height:100%; box-sizing:border-box; border:3px solid #fff; display: none;}
+.guide_nar>div.active{display: block;}
+.guide_nar>div>ul{width:300px; height:400px; margin-top:190px; margin-left:50px;}
+.guide_nar>div>ul>li{width:100%; height:32px;  margin-bottom:50px; }
+.guide_nar>div>ul>li>a{font-size:28px; color:#fff; font-weight:bold;}
+.guide_nar>div>ul>li:last-child{margin-bottom:0;}
+.guide_nar>div>ul>li>a:focus{border:2px solid #fff;}
+.office{background-color:rgba(102,45,140,0.9); display:block;}
+.snow_sport{background-color:rgba(0,118,148,0.9);}
+.media_content{background-color:rgba(102,45,140,0.9);}
+.serivce{background-color:rgba(0,118,148,0.9);}
+.sport{background-color:rgba(0,118,148,0.9);}
+.player{background-color:rgba(102,45,140,0.9);}
+.wrap{width:760px; height:auto; float:right;}
+
+/*#banner*/
+#banner_box{width:100%; height:780px; margin-bottom:100px;}
+#banner_box>img{width:100%;}
+
+#info_box{width: 100%;height: auto; margin-bottom:400px;}
+.promotion{width:100%; height:auto; margin-bottom:50px; margin-left:20px;}
+.promotion>img{width:100%;}
+.pro_info{width:702px; height:700px; margin-left:20px;}
+.pro_info>dl{float:left;}
+.promo{width:141px; height:620px; margin-right:20px;}
+.promo>dt{width:100%; height:60px; background-color:#007695; margin-bottom:10px; font-size:24px; font-weight:bold; color:#fff;text-align:center; line-height:60px;}
+.promo_info{width:541px; height:100%;}
+.promo_info>dd{width:100%; height:60px; margin-bottom:10px; font-size:16px; color:#666; word-spacing: 5px; line-height:30px;}
+.promo_info>dd:nth-child(5){line-height:60px;}
+.promo_info>dd:nth-child(7){line-height:60px;}
+.promo_info>dd:nth-child(8){line-height:60px;}
+.promo_info>dd:last-child{width:378px; height:134px;}
+.promo_info>dd:last-child>img{width:100%;}
+.join{width:200px; height:50px; background-color:#832bae; margin-top:50px; margin-left:270px; color:#fff; font-size:22px; font-weight:bold; text-align:center; line-height:50px;}
+
+#content_box{width:100%; height:514px; margin-bottom:50px;}
+#content_box>ul{width:620px; height:358px; margin-left:70px;}
+#content_box>ul>li{width:135px; height:154px; float:left; margin-right:100px; margin-bottom:50px; position:relative;}
+#content_box>ul>li:nth-child(3){margin-right:0;}
+#content_box>ul>li:nth-child(6){margin-right:0;}
+#content_box>ul>li>a{width:100%; height:100%; display:block;}
+#content_box>ul>li>a:before{content:" "; width:100%; height:100%; display:block; background-color:transparent; position:absolute; top:0; left:0;}
+#content_box>ul>li>a:hover:before{background-color:rgba(102,102,102,0.9);}
+#content_box>ul>li>a:after{content:"\f002"; width:100%; height:100%; font-family:fontAwesome; font-size:3rem; color:transparent; position:absolute; top:50%; margin-top:-1.5rem; left:50%; margin-left:-20px;}
+#content_box>ul>li>a:hover:after{color:#fff; transition: all 300ms ease;}
+#content_box>ul>li>a>img{width:100%;}
+.more_show{width:200px; height:26px; margin-left:20px; font-size:24px; font-weight:bold; line-height:26px; color:#666; background:transparent;}
+.more_show:after{content:">"; font-family: fontawesome;  font-size:24px; color:#666; margin-left:10px; font-weight:bold;}
+
+/*#foot_box*/
+
+#foot_box{width:100%; height:247px; background-color:#666; padding-top:40px; box-sizing:border-box; position:relative;
+}
+
+.foot_nav{width: 100%; height: 20px; background-color:inherit;}
+.foot_nav>ul{width: 100%; height: 100%; margin-left:50px;}
+.foot_nav>ul>li{float:left; padding: 0.3rem 1rem; position:relative;}
+.foot_nav>ul>li:last-child:after{display: none;}
+.foot_nav>ul>li:after{content:" "; display:inline-block; position: absolute; top:20%; right:-1px; height:60%; border-right:2px solid  #aaa;}
+.foot_nav>ul>li>a{font-size: 1rem; color:#fff;}
+.info{width:100%; height:60px; margin-left:55px;}
+.domicile{width:100%; height:20px; margin-top:10px; margin-left:1rem;}
+.domicile span{font-size:16px; color:#fff; text-align:left; margin-right:18px;}
+.domicile span:nth-child(1){margin-left:-5px;}
+.info>dl{width:auto; min-width:110px; float:left; height:18px; color:#fff; margin-left:10px; margin-right:30px;}
+.info>dl>dt{width:25px; height:100%; float:left; margin-right:10px;}
+.info>dl>dd{width:121px; height:100%; float:left;}
+
+#foot_box>p{width:292px; height:20px; color:#fff; position:absolute; bottom:0; margin-left:50px;}
+.ksa_sns{width:180px; height:50px; float:right; margin-right:20px; margin-top:40px;}
+.ksa_sns>li{width:50px; height:50px; float:left; background: transparent; margin-right:10px;}
+.ksa_sns>li>a{width:100%; height:100%; display:inline-block;}
+

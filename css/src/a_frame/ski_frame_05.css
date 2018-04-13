@@ -1,0 +1,67 @@
+/*ski_frame_05.css*/
+/*960px layout*/
+#wrap{width:960px; height:auto; min-height:1500px; margin:auto;}
+#headBox{width:100%; height:407px; margin-bottom:200px;}
+.banner{width:100%; height:300px; background-color:#0064cd; position:relative;}
+h1{width:64px; height:64px; background-color:#fff; position:absolute; top:19px; right:34px;}
+.nav{width:13px; height:107px; background-color:pink; margin-left:5px;}
+#bannerBox{width:100%; height:626px; 
+.list{width:622px; height:100%; position:relative; left:50%; margin-left:-311px;}
+.banner02{width:100%; height:205px; background-color:#38e; margin-bottom:50px;}
+.sub{width:100%; height:371px;}
+.sub>ul{width:303px; height:100%; float:left;}
+.sub>ul>li:nth-child(1){width:100%; height:132px; margin-bottom:50px; background-color:#00f;} 
+.sub>ul>li:nth-child(2){width:140px; height:92px; background-color:#63c; float:left;}
+.sub>ul>li:nth-child(3){width:140px; height:92px; background-color:#63c; float:right;}
+.sub>ul>li:nth-child(4){width:300px; height:47px; background-color:#333; float:left;
+margin-top:50px; margin-left:1.5px;}
+.sub_02{width:300px; height:100%; background-color:#44a; float:right;}
+
+#lnbBox{width:100%; height:838px;}
+.suport{width:628px; height:100%; position:relative;  left:50%; margin-left:-314px;}
+.display{width:100%; height:154px;}
+.picture{width:460px; height:100%;  background-color:#5ad; float:left;}
+.info{width:140px; height:100%; background-color:#24c; float:right;}
+.suport>ul{width:467px; height: 635px; margin-top:50px;}
+.suport>ul>li{width:220px; height:178px; margin-right:20px; margin-top:50px; background-color:#00f; float:left;}
+.suport>ul>li:nth-child(1){margin-top:0;}
+.suport>ul>li:nth-child(2){margin-top:0;}
+.suport>ul>li:nth-child(2n){margin-right:0;}
+
+#contentBox{width:100%; height:196px; margin-top:200px;}
+.screen{width:940px; height:100%; background-color:#846; margin-left:10px;}
+#footBox{width:100%; height:194px; background-color:rgba(51,51,51,0.9);}
+
+
+/*1366px layout*/
+/*#wrap{width:1366px; height:auto; min-height:1500px; margin:auto;}
+#headBox{width:100%; height:457px; margin-bottom:200px;}
+.banner{width:100%; height:350px; background-color:#0064cd; position:relative;}
+h1{width:66px; height:66px; background-color:#fff; position:absolute; top:19px; right:34px;}
+.nav{width:1356px; height:107px; background-color:pink; margin-left:5px;}
+#bannerBox{width:100%; height:1101px;} 
+.list{width:1018px; height:100%; position:relative; left:50%; margin-left:-509px;}
+.banner02{width:100%; height:459px; background-color:#38e; margin-bottom:50px;}
+.sub{width:100%; height:492px;}
+.sub>ul{width:540px; height:100%; float:left;}
+.sub>ul>li:nth-child(1){width:100%; height:186px; margin-bottom:50px; background-color:#00f;} 
+.sub>ul>li:nth-child(2){width:220px; height:140px; background-color:#63c; float:left;}
+.sub>ul>li:nth-child(3){width:220px; height:140px; background-color:#63c; float:right;}
+.sub>ul>li:nth-child(4){width:100%; height:66px; background-color:#333; float:left;
+margin-top:50px;}
+.sub_02{width:458px; height:100%; background-color:#44a; float:right;}
+
+#lnbBox{width:100%; height:1290px;}
+.suport{width:1020px; height:100%; position:relative;  left:50%; margin-left:-509px;}
+.display{width:100%; height:348px;}
+.picture{width:748px; height:100%;  background-color:#5ad; float:left;}
+.info{width:218px; height:100%; background-color:#24c; float:right;}
+.suport>ul{width:858px; height: 892px; margin-top:50px;}
+.suport>ul>li{width:379px; height:261px; margin-right:100px; margin-top:50px; background-color:#00f; float:left;}
+.suport>ul>li:nth-child(1){margin-top:0;}
+.suport>ul>li:nth-child(2){margin-top:0;}
+.suport>ul>li:nth-child(2n){margin-right:0;}
+
+#contentBox{width:100%; height:565px; margin-top:200px; margin-bottom:200px;}
+.screen{width:100%; height:100%; background-color:#846;}
+#footBox{width:100%; height:194px; background-color:rgba(51,51,51,0.9);}*/

@@ -1,0 +1,91 @@
+/*ski_frame_06.css*/
+
+/*960px layout*/
+#wrap{width:960px; height:auto; min-height:1000px; margin:auto;}
+#headBox{width:100%; height:800px; margin-bottom:200px;}
+#nav{width:200px; height:100%;  background-color: #0f0; position:fixed; top:0; z-index:300;}
+h1{width:201px; height:200px; background-color:#88c;}
+.guide{width:100%; height:auto; background-color:#3fc;}
+.guide>ul{width:100%; height:100%; box-sizing:border-box;position:relative;}
+.guide>ul>li{width:100%; height:80px; background-color:#cca; border:1px solid #aaa;}
+.shadow{width:373px; height:100%; background-color:rgba(160,160,160,0.9); position:absolute; top:0; left:100%; z-index:500; display:none;}
+.main_banner{width:100%; height:100%; position:relative;}
+.main{width:500%; height:800px; position:absolute; z-index:100;}
+.main>div{width:20%; height:100%; float:left; margin-right:50px; display:none;}
+.main>div:nth-child(1){background-color:red; display:block;}
+.main>div:nth-child(2){background-color:orange;}
+.main>div:nth-child(3){background-color:yellow;}
+.main>div:nth-child(4){background-color:green;}
+.main>div:nth-child(5){background-color:blue;}
+.main_banner>ul{width:360px; height:30px; position:absolute; bottom:0; right:0; z-index:200;}
+.main_banner>ul>li{width:30px; height:30px; float:left; background-color:#6de; margin-right:20px;}
+/*----------------------*/
+#bannerBox{width:100%; height:780px;  position:relative; overflow:hidden; margin-bottom:200px;}
+.banner_btn{width:80%; height:0; position:absolute; top:50%; margin-top:-50px; left:21%; z-index:200;}
+.lbtn{width:100px; height:100px; background-color:#ff00ff; float:left;}
+.rbtn{width:100px; height:100px; background-color:#ff00ff; float:right;}
+.banner02{width:200%; height:100%; position:relative; z-index:100;left:21%;}
+.banner02>div{width:100%; height:100%; float:left;  display:none; position:absolute; z-index:100;}
+.banner02>.survery{background-color:#5ec; display:block;}
+.banner02>.recruit{background-color:#7df;}
+/*-------------------------*/
+#contentBox{width:100%; height:900px; padding-top:50px; box-sizing:border-box; background-color:#dfe;overflow:hidden; position:relative;}
+.content{width:4000px; height:800px; }
+.content>div{width:20%; height:100%;  float:left;margin-left:200px;}
+.news_box{background-color:red;}
+.vidio_box{background-color:orange;}
+.art_box{backgrund-color:yellow;}
+.magazin_box{background-color:green;}
+.special{background-color:blue;}
+.scroll{width:100px; height:100px; background-color:#fff; position:absolute; top:50%; margin-top:-50px; right:0;}
+#chooseBox{width:100%; height:380px; background-color:#34a; margin-top:200px; margin-bottom:200px;}
+.choose{width:960px; height:380px; margin-left:200px;}
+.sign_up{width:380px; height:380px; background-color:#00f; float:left;}
+.application{width:380px; height:380px; background-color:#662d91; float:left;}
+#footBox{width:100%; height:320px; background-color:#54c;}
+
+/*1366px layout*/
+/*#wrap{width:1366px; height:auto; min-height:2000px; margin:auto;}
+#headBox{width:100%; height:1018px; margin-bottom:200px;}
+#nav{width:400px; height:100%;  background-color: #0f0; position:fixed; top:0; z-index:300;}
+h1{width:401px; height:400px; background-color:#88c;}
+.guide{width:100%; height:auto; background-color:#3fc;}
+.guide>ul{width:100%; height:100%; box-sizing:border-box;position:relative;}
+.guide>ul>li{width:100%; height:90px; background-color:#cca; border:1px solid #aaa;}
+.shadow{width:484px; height:100%; background-color:rgba(160,160,160,0.9); position:absolute; top:0; left:100%; z-index:500; display:none;}
+.main_banner{width:100%; height:100%; position:relative;}
+.main{width:500%; height:1018px; position:absolute; z-index:100;}
+.main>div{width:20%; height:100%; float:left; margin-right:50px; display:none;}
+.main>div:nth-child(1){background-color:red; display:block;}
+.main>div:nth-child(2){background-color:orange;}
+.main>div:nth-child(3){background-color:yellow;}
+.main>div:nth-child(4){background-color:green;}
+.main>div:nth-child(5){background-color:blue;}
+.main_banner>ul{width:400px; height:60px; position:absolute; bottom:0; right:0; z-index:200;}
+.main_banner>ul>li{width:60px; height:60px; float:left; background-color:#6de; margin-right:20px;}*/
+/*----------------------*/
+/*#bannerBox{width:100%; height:992px;  position:relative; overflow:hidden; margin-bottom:200px;}
+.banner_btn{width:70.8%; height:0; position:absolute; top:50%; margin-top:-50px; left:30%; margin-left:-10px; z-index:200;}
+.lbtn{width:120px; height:120px; background-color:#ff00ff; float:left;}
+.rbtn{width:120px; height:120px; background-color:#ff00ff; float:right; margin-left:-10px;}
+.banner02{width:200%; height:100%; position:relative; z-index:100;left:25%;}
+.banner02>div{width:100%; height:100%; float:left;  display:none; position:absolute; z-index:100;}
+.banner02>.survery{background-color:#5ec; display:block;}
+.banner02>.recruit{background-color:#7df;}*/
+/*-------------------------*/
+/*#contentBox{width:100%; height:1144px; padding-top:50px; box-sizing:border-box; background-color:#dfe;overflow:hidden; position:relative;}
+.content{width:5000px; height:1020px; }
+.content>div{width:20%; height:100%;  float:left;margin-left:200px;}
+.news_box{background-color:red;}
+.vidio_box{background-color:orange;}
+.art_box{backgrund-color:yellow;}
+.magazin_box{background-color:green;}
+.special{background-color:blue;}
+.scroll{width:100px; height:100px; background-color:#fff; position:absolute; top:50%; margin-top:-50px; right:12.1%;}*/
+/*-------------------*/
+/*#chooseBox{width:100%; height:484px; background-color:#34a; margin-top:200px; margin-bottom:200px;}
+.choose{width:1366px; height:484px; margin-left:400px;}
+.sign_up{width:484px; height:484px; background-color:#00f; float:left;}
+.application{width:484px; height:484px; background-color:#662d91; float:left;}
+#footBox{width:100%; height:404px; background-color:#54c;}
+*/

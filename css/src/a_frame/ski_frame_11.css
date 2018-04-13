@@ -1,0 +1,40 @@
+#wrap{width:960px; height:auto; margin:auto;}
+#headBox{width:200px; height:100%; background-color:#9e005d; position:fixed; z-index:1000;}
+h1{width:100%; height:200px;margin-bottom:50px; background-color:#00a99d;}
+#nav{width:100%; height:408px;}
+#nav>ul{width:100%; height:100%;}
+#nav>ul>li{width:100%; height:26px; background-color:#00ffff; margin-bottom:50px;}
+#nav>ul>li:last-child{margin-bottom:0;}
+.lnb{display:none; width:760px; height:70%; background-color:rgba(118,118,149,0.9); position:absolute; top:0; left:100%;}
+
+.snow{width:760px; height:auto; float:right;}
+.background{width:760px; height:367px; position:fixed; background-color:#00ff00; top:0; z-index:-100;}
+
+#bannerBox{width:100%; height:866px; background-color:#fff;}
+.sub{width:100%; height:172px; background-color:rgba(255,255,0,0.9); margin-top:195px;}
+.used{width:100%; height:500px; background-color:#fff; padding-top:50px;}
+.tool{width:650px; height:650px; height:300px; background-color:#29abe2; margin-left:50px; margin-bottom:20px;}
+.caption{width:576px; height:120px; background-color:#d9e021; margin-left:88px;}
+#rules{width:100%; height:564px; background-color:#fff;}
+.arest{width:100%; height:200px; background-color:#f7931e;}
+.regulations{width:100%; height:363px;}
+.regulations>div{width:300px; height:300px; background-color:#8cc63f; float:left; margin-top:30px;}
+.regul_01{margin-left:58px; margin-right:50px;}
+
+#contentBox{width:100%; height:auto; background-color:#fff;}
+.accordion{width:100%; height:auto; margin-bottom:50px;}
+.accordion>dl{width:100%; height:auto;}
+.accordion>dl>dd{display:none;}
+.accordion>dl>.button{display:none;}
+.accordion>dl:nth-child(6)>dd{display:block;}
+.accordion>dl:nth-child(6)>.button{display:block;}
+
+.accordion>dl>dt{width:100%; height:60px;  background-color:#00ffff; border:1px solid #666;}
+.accordion>dl>dd{width:100%; height:573px; background-color:#603813;}
+.accordion>dl>dd>.content{width:100%; height:100%; padding-top:50px; box-sizing:border-box;}
+.content>.img{width:270px; height:270px; background-color:#c7b299; float:left; margin-left:50px;}
+.content>.sub_cap{width:340px; height:372px; background-color:#999; float:left; margin-left:50px;}
+.accordion>dl>.button{width:100%; height:60px; background-color:#00d58d;}
+
+
+#footBox{width:100%; height:247px; background-color:#666;}

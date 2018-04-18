@@ -55,7 +55,7 @@ h1{width:100%; height:200px;margin-left:-10px;}
 .background_01>img{width:100%;}
 
 /*#sub_box*/
-#sub_box{width:100%; height:734px; margin-top:200px; position:relative;  z-index:200;}
+#sub_box{width:100%; height:1034px; margin-top:200px; position:relative;  z-index:200;}
 /*장비,규정&주요기술, 스포츠별 종목종류*/
 .intro{width:100%; height:172px; background-color:rgba(0,118,148,0.9);  padding-top:18px; box-sizing:border-box;}
 .intro>h3{width:140px; height:30px; font-size:28px; color:#fff; margin-left:290px;}
@@ -71,7 +71,7 @@ h1{width:100%; height:200px;margin-left:-10px;}
 
 .sport_theme{width:100%; height:26px; margin-top:36px;}
 .sport_theme>li{width:auto; min-width:48px; height:100%; float:left; margin-right:50px;}
-.sport_theme>li:first-child{margin-left:40px;}
+.sport_theme>li:first-child{margin-left:200px;}
 .sport_theme>li:last-child{margin-right:0;}
 
 .sport_theme>li>button{width:100%; height:100%; background:transparent;  font-size:1.5rem;  color:#fff;}
@@ -88,30 +88,48 @@ h1{width:100%; height:200px;margin-left:-10px;}
 .caption>span{ display:inline-block; font-size:18px; color:#666; margin-bottom:10px;}
 
 /*#rule_skill*/
-#rule_skill{width:100%; height:876px; background-color:#fff;}
-.privew_rule{width:100%; height:492px; background-color:#666;}
-.priview{width:716px; height:431px;}
-.priview>img{width:100%; height:100%;margin:30px 26px;}
+#rule_skill{width:100%; height:940px; background-color:#fff;padding-top:50px; box-sizing:border-box;}
+#rule_skill>h3{width:200px; height:24px; font-size:26px;  color:#666; margin-top:50px; margin-left:50px; margin-bottom:50px;}
+.preview_rule{width:100%; height:492px; background-color:#666;}
+.preview{display:none; width:716px; height:431px; margin:0 26px; padding-top:30px; box-sizing:border-box;}
+.preview>img{width:70%; height:100%; float:left;}
+.rules_cap{width:30%; height:100%;  background-color:#fff; overflow-y:scroll; padding:20px; box-sizing:border-box; float:right;}
+.rules_cap:hover{cursor:pointer;}
+.rules_cap>dt{width:100px; height:22px; font-size:20px; font-weight:500;}
+.rules_cap>dd{width:100%; height:auto; margin-top:30px;}
 
-.icon{width:500px; height:160px; float:right;  margin-top:30px;}
-.icon>button{width:120px; height:120px; background:transparent; float:left;}
-.icon>button:hover{cursor:pointer;}
-.icon>button:focus{border:1px solid #666;}
-.icon>button>img{width:100%;}
-.icon>button:nth-child(2){margin-left:50px; margin-right:50px;}
-.icon_caption{width:500px; height:20px; margin-top:30px; float:right;}
-.icon_caption>span{display:none; width:120px; float:left; font-size:1.125rem; color:#666; margin-right:50px; text-align:center;}
-.icon_caption>span:last-child{margin-right:0;}
 
+.preview02{display:none;width:716px; height:460px; margin:0 26px; padding-top:30px; box-sizing:border-box;}
+.preview02>img{width:70%; height:100%; float:left;}
+.skills_cap{width:30%; height:100%;  background-color:#fff; overflow-y:scroll; padding:20px; box-sizing:border-box; float:right;}
+.skills_cap:hover{cursor:pointer;}
+.skills_cap>dt{width:100px; height:22px; font-size:20px; font-weight:500;}
+.skills_cap>dd{width:100%; height:auto; margin-top:30px;}
+
+.preview03{/*display:none;*/width:716px; height:431px; border:1px solid #666; margin:0 26px; padding-top:30px; box-sizing:border-box;}
+.preview03>img{width:100%; height:95%; float:left;}
+.preview03>p{width:100%; height:5%; background-color:#fff;  font-size:1rem;color:#666; margin-top:380px;margin-right:20px;}
+.preview03>p>a{display:inline-block; font-size:1rem; color:#666; text-indent:20px;}
+
+.icon{width:600px; height:160px; float:right;  margin-top:30px;}
+.icon>ul{width:100%; height:100%;}
+.icon>ul>li{width:120px; height:100%; float:left; margin-right:100px;}
+.icon>ul>li:last-child{margin-right:0;}
+.icon>ul>li>button{width:120px; height:120px; background:transparent;}
+.icon>ul>li>button:hover{cursor:pointer;}
+.icon>ul>li>button:focus{border:1px solid #666;}
+.icon>ul>li>button>img{width:100%;}
+.icon>ul>li>button:nth-child(2){margin-left:50px; margin-right:50px;}
+.icon>ul>li>p{display:none; width:120px; margin-top:20px;  font-size:1.125rem; color:#666; text-align:center;}
 /*#kind*/
 #kind{width:100%; height:auto; background-color:#fff;}
-.background02{width:100%; height:32.5625rem; background-image:url(../../../img/alpaine/alpine_background.jpg); background-attachment:fixed; background-repeat:no-repeat;  background-size:100%; background-position:top;}
+.background02{width:100%; height:32.5625rem; background-image:url(../../../img/ski_jump/ski_jump_background02.jpg); background-attachment:fixed; background-repeat:no-repeat;  background-size:100%; background-position:top;}
 
 #kind>h3{width:50px; height:26px; font-size:1.5rem; color:#666; font-weight:bold; margin-top:50px; margin-bottom:50px;}
 
-.alpaine_ski{width:600px; height:450px; margin-left:100px; margin-bottom:50px;}
-.alpaine_ski>img{width:100%; height:60%; margin-top:5px;}
-.alpaine_ski>p{width:688px; height:auto; font-size:1rem; color:#666; margin-top:10px;}
+.ski_jump{width:600px; height:450px; margin-left:100px; margin-bottom:50px;}
+.ski_jump>img{width:100%; height:60%; margin-top:5px;}
+.ski_jump>p{width:688px; height:auto; font-size:1rem; color:#666; margin-top:10px;}
 
 .type{width:100%; height:auto;}
 .type>dl{width:100%; height:auto;}
@@ -124,7 +142,7 @@ h1{width:100%; height:200px;margin-left:-10px;}
 
 .type>dl>dd{display:none; width:100%; height:574px; position:relative;}
 .inner{width:100%; height:500px; background-color:rgba(102,102,102,0.8); padding-top:26px; box-sizing:border-box;}
-.inner>h3{width:auto; min-width:52px; height:28px; font-size:26px; color:#fff;  margin-bottom:26px; float:left;}
+.inner>h3{width:auto; min-width:52px; height:28px; font-size:26px; color:#fff;  margin-left:50px; margin-bottom:26px; float:left;}
 .inner>a{display:block; width:270px; height:270px; position:relative; margin-top:54px; margin-left:50px; margin-right:50px;}
 .inner>a:before{content:" "; width: 100%; height: 100%; display:block; position:absolute; background-color:transparent; top:0; left:0; z-index:100; transition:all 300ms ease;}
 .inner>a:hover:before{background-color:rgba(102,102,102,0.9);}
@@ -132,7 +150,7 @@ h1{width:100%; height:200px;margin-left:-10px;}
 .inner>a:hover:after{color:#fff;}
 .inner>a>img{width:100%; height:100%;}
 
-.type_caption{width:376px; height:270px; background-color:#fff; overflow:scroll;  position:absolute; top:14%; left:50%; padding:20px; box-sizing:border-box;}
+.type_caption{width:376px; height:270px; background-color:#fff; overflow-y: scroll;  position:absolute; top:14%; left:50%; padding:20px; box-sizing:border-box;}
 .type_caption>p{width:auto; min-width:344px; height:auto; min-height:20px; font-size:1rem; color:#666; margin-bottom:10px;}
 .author{width:100%; height:74px; background-color:#007695; position:absolute; bottom:0; padding-top:20px; padding-left:50px; box-sizing:border-box;}
 .author>a{display:block; width:96px; height:30px; color:#fff; float:left;}
